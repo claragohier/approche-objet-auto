@@ -1,5 +1,10 @@
 package fr.diginamic.entities;
 
+/**
+ * This class correspond to theater object
+ * @author clarousse
+ *
+ */
 public class Theater {
 	
 	private String name;
@@ -14,6 +19,11 @@ public class Theater {
 		this.recipe = recipe;
 	}
 	
+	/**
+	 * register method
+	 * @param clients
+	 * @param price
+	 */
 	public void register(int clients, int price) {
 		if(this.registeredClients < this.max) {
 			this.registeredClients += clients;

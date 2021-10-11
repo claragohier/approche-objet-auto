@@ -1,6 +1,11 @@
 package fr.diginamic.tests;
 import fr.diginamic.entities.Theater;
 
+/**
+ * This class allows to test the Theater class
+ * @author clarousse
+ *
+ */
 public class TestTheater {
 
 	public static void main(String[] args) {
