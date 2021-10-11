@@ -1,4 +1,6 @@
-package fr.diginamic.operations;
+package fr.diginamic.tests;
+
+import fr.diginamic.operations.Operations;
 
 /**
  * This class allows to test the Operations class

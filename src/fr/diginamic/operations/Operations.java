@@ -7,6 +7,9 @@ package fr.diginamic.operations;
  */
 public class Operations {
 
+	/**
+	 * Exercise Operations
+	 */
 	public static double calcul(double a, double b, char op) {
 		
 		switch (op) {
